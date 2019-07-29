@@ -1,9 +1,6 @@
 require 'fileutils'
 require 'exifr/jpeg'
 
-# In the 2014 unsorted picture dataset, there are 1,504 files. 6.30 GB
-# (6,765,896,142 bytes).
-
 image_folder = ARGV[0]
 puts "Processing images from: #{image_folder}"
 
